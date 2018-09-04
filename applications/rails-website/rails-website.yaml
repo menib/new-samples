@@ -64,6 +64,7 @@ configuration:
   # that all ports are available
   healthcheck:
     script: rails-website-hc.sh
+    timeout: 1000
 
 debugging:
   connection_protocol: SSH
