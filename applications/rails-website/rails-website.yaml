@@ -63,8 +63,7 @@ configuration:
   # To validate the installation, we wait to see
   # that all ports are available
   healthcheck:
-    wait_for_ports: ALL
-    timeout: 500
+    script: rails-website-hc.sh
 
 debugging:
   connection_protocol: SSH
