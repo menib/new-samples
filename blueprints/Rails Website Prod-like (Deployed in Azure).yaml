@@ -1,4 +1,4 @@
-# Ruby on Rails Website deployed on 1 EC2 instance for the database server
+# Ruby on Rails Website deployed on 1 Azure VM for the database server
 # and multiple instances as front ends controlled with AWS AutoScalingGroup
 #
 #       [Front End],[Front End],[Front End]...[Front End] (Rails, Ruby, Webrick)
@@ -17,7 +17,7 @@ metadata:
     Ruby On Rails & MySQL deployed with Autoscaling & Load Balancing
 
 clouds:
-  - aws: eu-west-1
+    - azure: westus
 
 # These are the blueprint parameters and their default values.
 # The values can be changed when creating a sandbox based on

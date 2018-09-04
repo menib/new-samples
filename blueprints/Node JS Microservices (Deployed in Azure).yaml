@@ -1,6 +1,6 @@
 # A Website using a microservices architecture developed with Node
 # JS and Express JS.
-# Deployed in AWS with 1 instance per service.
+# Deployed in Azure with 1 instance per service.
 
 # 4 Micro Services: API GATEWAY, ORDERS, PAYMENTS, DATA-STORE
 
@@ -28,7 +28,7 @@ metadata:
     Microservices architecture
 
 clouds:
-  - aws: eu-west-1
+    - azure: westus
 
 applications:
   - ms-data-store:

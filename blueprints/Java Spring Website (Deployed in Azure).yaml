@@ -1,5 +1,5 @@
 # A Java Spring website deployed on a TomCat server and a
-# MySQL database deployed on two EC2 instances
+# MySQL database deployed on two Azure VMs
 #
 #       [Front End] (Java, Tomcat)
 #            |
@@ -18,7 +18,7 @@ metadata:
     server and MySQL database
 
 clouds:
-  - aws: eu-west-1
+    - azure: westus
 
 # These are the blueprint parameters and their default values.
 # The values can be changed when creating a sandbox based on this

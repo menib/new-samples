@@ -1,4 +1,4 @@
-# A WordPress web site deployed on 2 EC2 instances
+# A WordPress web site deployed on 2 Azure VMs
 #
 #       [Front End] (Apache, PHP, WordPress)
 #            |
@@ -13,7 +13,7 @@ metadata:
   description: LAMP WordPress stack (Linux, Apache, MySQL, PHP)
 
 clouds:
-  - aws: eu-west-1
+    - azure: westus
 
 # These are the blueprint parameters and their default values.
 # The values can be changed when creating a sandbox based on this
