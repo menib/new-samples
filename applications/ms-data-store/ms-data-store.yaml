@@ -17,7 +17,7 @@ infrastructure:
       aws:
         instance_type: t2.medium
       azure:
-        vm_size: Standard_A4_v2
+        vm_size: Basic_A1
 
   connectivity:
     # Port 3004 will be opened externally
