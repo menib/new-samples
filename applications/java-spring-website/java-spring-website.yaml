@@ -26,7 +26,7 @@ infrastructure:
       aws:
         instance_type: t2.medium
       azure:
-        vm_size: Standard_B1s
+        vm_size: Basic_A1
 
   connectivity:
     external:
