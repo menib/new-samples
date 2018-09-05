@@ -22,7 +22,7 @@ infrastructure:
       aws:
         instance_type: t2.medium
       azure:
-        vm_size: B2ms
+        vm_size: Standard_B2ms
 
   # Port 80 will be opened externally to receive web requests
   connectivity:
